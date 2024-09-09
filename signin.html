@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>signin</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./CSS/all.min.css" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./CSS/signin.css" />
+  </head>
+  <body>
+    <!-- smart Login system -->
+
+    <div class="container">
+      <h1 id="h1" class="text-center mb-4">smart Login</h1>
+      <div class="row">
+        <div class="col-12">
+          <input
+            id="Emailin"
+            type="text"
+            placeholder="enter your Email"
+            class="form-control mb-4"
+          />
+          <input
+            id="Passin"
+            type="text"
+            placeholder="enter your Password"
+            class="form-control mb-3"
+          />
+          <p id="incorrect" class="text-center text-danger d-none">
+            incorrect email or Password
+          </p>
+
+          <p id="required" class="text-danger text-center d-none">
+            All inputs are Reqired
+          </p>
+          <button
+            id="BTNIIN"
+            onclick="ADD2()"
+            class="btn btn-outline-info form-control mt-2 mb-2"
+          >
+            Login
+          </button>
+          <p class="h6 text-center text-white mt-2">
+            Don't have an account ?
+            <a class="text-white text-decoration-none" href="./index.html"
+              >Sign Up</a
+            >
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="./JS/all.min.js"></script>
+    <script src="./JS/signin.js"></script>
+  </body>
+</html>

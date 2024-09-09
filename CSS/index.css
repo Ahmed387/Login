@@ -1,0 +1,23 @@
+body
+{
+  background-color: #24353F;
+}
+.navbar
+{
+  box-shadow: 0 0 15px rgba(0, 0, 0,1); 
+}
+.cont
+{
+  
+  max-width: 45rem;
+  max-height: 30rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0,1);
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+}
+.cont p
+{
+  color: #17A2B8;
+  font-size: 3rem;
+}

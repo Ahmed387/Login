@@ -1,0 +1,35 @@
+body
+{
+  padding: 30px;
+  background-color: #24353F;
+}
+.container
+{
+  margin-top: 50px;
+  max-width: 45rem;
+  max-height: 30rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0,1);
+  padding: 25px;
+}
+.container #h1
+{
+  
+  color:#17A2B8 ;
+}
+.form-control
+{
+  background-color: #24353F;
+  color: white; 
+  
+}
+.form-control::placeholder {
+  color: #888888; 
+  opacity: 1; }
+
+.form-control:focus
+{
+  background-color: #24353F;
+  color:white;
+  border-color: #ffffffc9;  
+}
+

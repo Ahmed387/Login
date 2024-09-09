@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Welcome</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./CSS/all.min.css" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./CSS/index.css" />
+  </head>
+  <body>
+    <!-- welcome page -->
+
+    <nav class="navbar fixed-top">
+      <div class="container">
+        <a class="navbar-brand text-white fs-3" href="./signin.html"
+          >SMART LOGIN</a
+        >
+        <form class="d-flex" role="search">
+          <input
+            type="button"
+            onclick="OUT()"
+            id="Logout"
+            class="btn btn-outline-warning text-white"
+            value="Logout"
+          />
+        </form>
+      </div>
+    </nav>
+
+    <div
+      class="cont d-flex justify-content-center align-items-center position-absolute"
+    >
+      <p id="WUS" class="mx-5 p-5"></p>
+    </div>
+
+    <script src="./JS/all.min.js"></script>
+    <script src="./JS/signin.js"></script>
+  </body>
+</html>
